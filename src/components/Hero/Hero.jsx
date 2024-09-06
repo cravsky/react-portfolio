@@ -1,4 +1,5 @@
 import React from "react";
+import Mailto from "react-mailto-link";
 
 import styles from "./Hero.module.css";
 import { getImageUrl } from "../../utils";
@@ -8,12 +9,16 @@ export const Hero = () => {
     <section className={styles.container}>
       <div className={styles.content}>
         <h1 className={styles.title}>Hi, I'm Krzysztof</h1>
+        <h2 className={styles.description}>
+        Frontend Developer
+        </h2>
         <p className={styles.description}>
-          I'm a frontend developer who loves simplicity
+        Legacy Code? No Problem.
         </p>
-        <a href="mailto:myemail@email.com" className={styles.contactBtn}>
+        <Mailto className={styles.contactBtn} email="cravsky@gmail.com" obfuscated={true} >Contact Me</Mailto>
+        {/* <a href="mailto:myemail@email.com" className={styles.contactBtn}>
           Contact Me
-        </a>
+        </a> */}
       </div>
       <img
         src={getImageUrl("hero/heroImage.png")}
