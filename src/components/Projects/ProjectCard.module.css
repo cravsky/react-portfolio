@@ -12,6 +12,11 @@
 
 .image {
   margin-bottom: 26px;
+  /* TODO: improve those cards */
+  object-fit: cover;
+  width: 100%;
+  height: 200px;
+  border-radius: 10px;
 }
 
 .title {

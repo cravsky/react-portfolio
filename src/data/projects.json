@@ -1,19 +1,19 @@
 [
   {
-    "title": "Project A",
-    "imageSrc": "projects/project.png",
-    "description": "This is a project made to learn the latest languages by building an app.",
+    "title": "Movie Maniac",
+    "imageSrc": "projects/movie-maniac.png",
+    "description": "Cool, interactive movie database",
     "skills": ["React", "Express", "Node"],
-    "demo": "https://www.example.com",
-    "source": "https://www.github.com"
+    "demo": "https://cravsky.github.io/moviemaniac/#popular",
+    "source": "https://github.com/cravsky/moviemaniac"
   },
   {
-    "title": "Project B",
-    "imageSrc": "projects/project.png",
-    "description": "This is a project made to learn the latest languages by building an app.",
-    "skills": ["React", "Express", "Node", "Sass"],
-    "demo": "https://www.example.com",
-    "source": "https://www.github.com"
+    "title": "React Quote Generator",
+    "imageSrc": "projects/quote-generator.png",
+    "description": "Quote generator that allows tweeting on X (Yikes!)",
+    "skills": ["React"],
+    "demo": "https://cravsky.github.io/quote-generator-react/",
+    "source": "https://github.com/cravsky/quote-generator-react"
   },
   {
     "title": "Project C",
