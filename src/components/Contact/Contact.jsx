@@ -1,4 +1,5 @@
 import React from "react";
+import Mailto from "react-mailto-link";
 
 import styles from "./Contact.module.css";
 import { getImageUrl } from "../../utils";
@@ -12,19 +13,17 @@ export const Contact = () => {
       </div>
       <ul className={styles.links}>
         <li className={styles.link}>
-          <img src={getImageUrl("contact/emailIcon.png")} alt="Email icon" />
-          <a href="mailto:myemail@email.com">myemail@email.com</a>
+          <Mailto email="cravsky@gmail.com" obfuscated={true} ><img src={getImageUrl("contact/emailIcon.png")} alt="Email icon" /></Mailto>
+          {/* <a href="mailto:myemail@email.com">myemail@email.com</a> */}
         </li>
         <li className={styles.link}>
-          <img
+          <a href="https://www.linkedin.com/in/cravsky"><img
             src={getImageUrl("contact/linkedinIcon.png")}
             alt="LinkedIn icon"
-          />
-          <a href="https://www.linkedin.com/myname">linkedin.com/myname</a>
+          /></a>
         </li>
         <li className={styles.link}>
-          <img src={getImageUrl("contact/githubIcon.png")} alt="Github icon" />
-          <a href="https://www.github.com/myname">github.com/myname</a>
+          <a href="https://www.github.com/cravsky"><img src={getImageUrl("contact/githubIcon.png")} alt="Github icon" /></a>
         </li>
       </ul>
     </footer>
