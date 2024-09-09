@@ -9,6 +9,7 @@
   z-index: 1;
   margin-left: 10%;
   margin-right: 10%;
+  height: 100vh;
 }
 
 .content {
@@ -22,7 +23,7 @@
 .title {
   font-size: 72px;
   font-weight: 900;
-  margin-bottom: 33px;
+  /* margin-bottom: 33px; */
   font-family: var(--font-roboto);
   background: linear-gradient(90deg,
       rgba(255, 255, 255, 1) 70%,
@@ -34,7 +35,8 @@
 .description {
   font-size: 30px;
   font-family: var(--font-roboto);
-  margin-bottom: 52px;
+  /* margin-bottom: 52px; */
+  margin: 30px 0;
 }
 
 .contactBtn {
