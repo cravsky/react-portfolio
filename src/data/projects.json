@@ -3,7 +3,7 @@
     "title": "Movie Maniac",
     "imageSrc": "projects/movie-maniac.png",
     "description": "Cool, interactive movie database",
-    "skills": ["React", "Express", "Node"],
+    "skills": ["React", "Node,js"],
     "demo": "https://cravsky.github.io/moviemaniac/#popular",
     "source": "https://github.com/cravsky/moviemaniac"
   },
@@ -16,11 +16,43 @@
     "source": "https://github.com/cravsky/quote-generator-react"
   },
   {
-    "title": "Project C",
+    "title": "Light Dark Mode",
     "imageSrc": "projects/project.png",
-    "description": "This is a project made to learn the latest languages by building an app.",
-    "skills": ["React", "Express", "Node"],
-    "demo": "https://www.example.com",
-    "source": "https://www.github.com"
+    "description": "Landing page with a Light/ Dark mode switch",
+    "skills": ["CSS"],
+    "demo": "https://cravsky.github.io/light-dark-mode/",
+    "source": "https://github.com/cravsky/light-dark-mode"
+  },
+  {
+    "title": "Music Player",
+    "imageSrc": "projects/project.png",
+    "description": "Online music player with a cool design",
+    "skills": ["JavaScript"],
+    "demo": "https://cravsky.github.io/music-player/",
+    "source": "https://github.com/cravsky/music-player"
+  },
+  {
+    "title": "Navigation Nation",
+    "imageSrc": "projects/project.png",
+    "description": "Custom navigation with animation effects",
+    "skills": ["CSS"],
+    "demo": "https://cravsky.github.io/navigation-nation/",
+    "source": "https://github.com/cravsky/navigation-nation"
+  },
+  {
+    "title": "Animated Template",
+    "imageSrc": "projects/project.png",
+    "description": "Animations applied to the static landing page",
+    "skills": ["CSS"],
+    "demo": "https://cravsky.github.io/animated-template/",
+    "source": "https://github.com/cravsky/animated-template"
+  },
+  {
+    "title": "Infinity Scroll",
+    "imageSrc": "projects/project.png",
+    "description": "An infinite scroll that keeps loading nice images",
+    "skills": ["REST API", "Node.js"],
+    "demo": "https://cravsky.github.io/infinity-scroll/",
+    "source": "https://github.com/cravsky/infinity-scroll"
   }
 ]
