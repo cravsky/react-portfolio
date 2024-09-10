@@ -3,21 +3,21 @@
     "title": "Movie Maniac",
     "imageSrc": "projects/movie-maniac.png",
     "description": "Cool, interactive movie database",
-    "skills": ["React", "Node,js"],
+    "skills": ["React", "Node.js"],
     "demo": "https://cravsky.github.io/moviemaniac/#popular",
     "source": "https://github.com/cravsky/moviemaniac"
   },
   {
     "title": "React Quote Generator",
-    "imageSrc": "projects/quote-generator.png",
-    "description": "Quote generator that allows tweeting on X (Yikes!)",
+    "imageSrc": "projects/react-quote-generator.png",
+    "description": "Quote generator that allows tweeting on X",
     "skills": ["React"],
     "demo": "https://cravsky.github.io/quote-generator-react/",
     "source": "https://github.com/cravsky/quote-generator-react"
   },
   {
     "title": "Light Dark Mode",
-    "imageSrc": "projects/project.png",
+    "imageSrc": "projects/light-dark-mode.png",
     "description": "Landing page with a Light/ Dark mode switch",
     "skills": ["CSS"],
     "demo": "https://cravsky.github.io/light-dark-mode/",
@@ -25,7 +25,7 @@
   },
   {
     "title": "Music Player",
-    "imageSrc": "projects/project.png",
+    "imageSrc": "projects/music-player.png",
     "description": "Online music player with a cool design",
     "skills": ["JavaScript"],
     "demo": "https://cravsky.github.io/music-player/",
@@ -33,7 +33,7 @@
   },
   {
     "title": "Navigation Nation",
-    "imageSrc": "projects/project.png",
+    "imageSrc": "projects/navigation-nation.png",
     "description": "Custom navigation with animation effects",
     "skills": ["CSS"],
     "demo": "https://cravsky.github.io/navigation-nation/",
@@ -41,7 +41,7 @@
   },
   {
     "title": "Animated Template",
-    "imageSrc": "projects/project.png",
+    "imageSrc": "projects/animated-template.png",
     "description": "Animations applied to the static landing page",
     "skills": ["CSS"],
     "demo": "https://cravsky.github.io/animated-template/",
@@ -49,8 +49,8 @@
   },
   {
     "title": "Infinity Scroll",
-    "imageSrc": "projects/project.png",
-    "description": "An infinite scroll that keeps loading nice images",
+    "imageSrc": "projects/infinity-scroll.png",
+    "description": "An infinite scroll that uses Unsplash REST API",
     "skills": ["REST API", "Node.js"],
     "demo": "https://cravsky.github.io/infinity-scroll/",
     "source": "https://github.com/cravsky/infinity-scroll"
