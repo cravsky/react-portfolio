@@ -27,12 +27,39 @@
       rgba(255, 255, 255, 0) 120%);
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
+  animation: fade-slide 1.5s ease-in-out forwards;
 }
+
+@keyframes fade-slide {
+  0% {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
 
 .description {
   font-size: 30px;
   font-family: var(--font-roboto);
   margin: 30px 0;
+  animation: fade-slide-side 2.0s ease-in-out forwards;
+}
+
+@keyframes fade-slide-side {
+  0% {
+    opacity: 0;
+    transform: translateX(50px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
 }
 
 .contactBtn {
@@ -45,10 +72,12 @@
   padding: 17px 26px;
   box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.25);
 }
-.contactBtn:hover{
-  filter:brightness(1.2);
+
+.contactBtn:hover {
+  filter: brightness(1.2);
 }
-.contactBtn:active{
+
+.contactBtn:active {
   scale: 0.9;
 }
 
