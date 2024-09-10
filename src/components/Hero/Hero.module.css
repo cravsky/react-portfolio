@@ -5,11 +5,9 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  /* margin-top: 49px; */
   z-index: 1;
   margin-left: 10%;
   margin-right: 10%;
-  height: 100vh;
 }
 
 .content {
@@ -23,7 +21,6 @@
 .title {
   font-size: 72px;
   font-weight: 900;
-  /* margin-bottom: 33px; */
   font-family: var(--font-roboto);
   background: linear-gradient(90deg,
       rgba(255, 255, 255, 1) 70%,
@@ -35,7 +32,6 @@
 .description {
   font-size: 30px;
   font-family: var(--font-roboto);
-  /* margin-bottom: 52px; */
   margin: 30px 0;
 }
 
@@ -53,29 +49,10 @@
 .heroImg {
   width: 40%;
   z-index: 1;
-
-  animation-name: floating;
-  animation-duration: 3s;
-  animation-iteration-count: infinite;
-  animation-timing-function: ease-in-out;
-
-  clip-path: circle();
-  padding-top: 5%;
-  /* mix-blend-mode: multiply; */
-}
-
-@keyframes floating {
-  0% {
-    transform: translate(0, 0px);
-  }
-
-  50% {
-    transform: translate(0, 10px);
-  }
-
-  100% {
-    transform: translate(0, -0px);
-  }
+  scale: .8;
+  transform: perspective(1000px) rotateY(10deg) rotateX(10deg);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
 }
 
 .topBlur {
@@ -113,5 +90,11 @@
 
   .content {
     align-items: center;
+  }
+}
+
+@media screen and (min-width: 830px) {
+  .container {
+    height: 100vh;
   }
 }
