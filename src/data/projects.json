@@ -2,7 +2,7 @@
   {
     "title": "Movie Maniac",
     "imageSrc": "projects/movie-maniac.png",
-    "description": "Cool, interactive movie database",
+    "description": "Interactive movie database",
     "skills": ["React", "Node.js"],
     "demo": "https://cravsky.github.io/moviemaniac/#popular",
     "source": "https://github.com/cravsky/moviemaniac"
@@ -26,7 +26,7 @@
   {
     "title": "Music Player",
     "imageSrc": "projects/music-player.png",
-    "description": "Online music player with a cool design",
+    "description": "Online music player with a modern design",
     "skills": ["JavaScript"],
     "demo": "https://cravsky.github.io/music-player/",
     "source": "https://github.com/cravsky/music-player"

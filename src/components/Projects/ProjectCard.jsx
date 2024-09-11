@@ -25,10 +25,10 @@ export const ProjectCard = ({
         })}
       </ul>
       <div className={styles.links}>
-        <a href={demo} className={styles.link}>
+        <a href={demo} className={styles.link} target="_blank">
           <img src={getImageUrl("projects/playIcon.png")}></img>
         </a>
-        <a href={source} className={styles.link}>
+        <a href={source} className={styles.link} target="_blank">
           <img src={getImageUrl("contact/githubIcon.png")}></img>
         </a>
       </div>

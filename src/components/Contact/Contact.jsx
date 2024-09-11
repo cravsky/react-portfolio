@@ -17,13 +17,13 @@ export const Contact = () => {
           {/* <a href="mailto:myemail@email.com">myemail@email.com</a> */}
         </li>
         <li className={styles.link}>
-          <a href="https://www.linkedin.com/in/cravsky"><img
+          <a href="https://www.linkedin.com/in/cravsky" target="_blank"><img
             src={getImageUrl("contact/linkedinIcon.png")}
             alt="LinkedIn icon"
           /></a>
         </li>
         <li className={styles.link}>
-          <a href="https://www.github.com/cravsky"><img src={getImageUrl("contact/githubIcon.png")} alt="Github icon" /></a>
+          <a href="https://www.github.com/cravsky" target="_blank"><img src={getImageUrl("contact/githubIcon.png")} alt="Github icon" /></a>
         </li>
       </ul>
     </footer>
